@@ -5,10 +5,18 @@ Aplikasi Flutter sederhana untuk mengenal berbagai jenis Pokémon. Aplikasi ini 
 ## Deskripsi
 
 Aplikasi ini dibuat untuk tugas UAS pengembangan aplikasi dengan fitur:
-- Daftar Pokémon lengkap
-- Halaman detail Pokémon
-- Informasi tipe, ability, weakness, deskripsi, dan partner
-- Gambar Pokémon dari folder `images`
+- Daftar Pokémon lengkap dengan filter berdasarkan tipe
+- Halaman detail Pokémon dengan informasi komprehensif
+- Tipe Pokémon ditampilkan dengan badge berwarna untuk identifikasi visual
+- Progress bar untuk setiap stat (HP, ATK, DEF, SP.ATK, SP.DEF, SPEED) dengan color coding:
+  - Hijau: stat ≥ 120 (sangat tinggi)
+  - Biru: stat ≥ 100 (tinggi)
+  - Oranye: stat ≥ 80 (sedang)
+  - Merah: stat < 80 (rendah)
+- Mode gelap dan terang (Dark/Light mode) yang dapat diaktifkan dari tombol AppBar
+- Informasi ability, weakness, deskripsi, role dalam tim, dan partner yang cocok
+- Gambar Pokémon dari folder `images` dengan fallback emoji
+- Desain Material 3 dengan Card yang elevated untuk tampilan modern
 
 ## Struktur Project
 
